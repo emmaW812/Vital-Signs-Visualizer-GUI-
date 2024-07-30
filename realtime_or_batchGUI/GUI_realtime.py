@@ -3,7 +3,6 @@ from tkinter import ttk
 import customtkinter
 import pandas as pd
 
-#from window1 import NewWindow
 from batch_or_realtime import Choose
 
 data = pd.read_csv("Vital Signs Data.csv")
